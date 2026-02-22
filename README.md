@@ -38,7 +38,7 @@ tiempo real utilizando un FPGA, conectando la teoría del diseño digital con ap
 
 ### 2.1.2 Reconocimiento
 
-La conexión VGA esta conformada por 5 conexiones importantes
+El VGA esta conformada por 5 pines importantes:
 
 | Señal | Tipo | Descripción |
 |--------|------|-------------|
@@ -48,7 +48,9 @@ La conexión VGA esta conformada por 5 conexiones importantes
 | HS (Sincronización Horizontal) | Digital | Sincroniza cada línea horizontal de la imagen |
 | VS (Sincronización Vertical) | Digital | Sincroniza cada actualización completa de la pantalla |
 
-(por ahoran no es importante saber que hace cada señal) que pueden ser ubicadas de la siguiente manera:
+Por ahoran no es importante saber que hace cada señal. 
+
+Estos pines pueden ser ubicados de la siguiente manera:
 
 <p align="center">
   <img src="Imagenes/5_VGA.png" width="500">
@@ -62,10 +64,10 @@ o visto de otra manera:
 
 ### 2.1.3 Medición
 
-Mediremos la contiunidad de cables con ayuda de un multímetro. Así podremos saber que cables corresponden a los pines
-de nuestro VGA.
+Con el fin de poder tener cables que conecten directamente con los pines del VGA, mediremos la contiunidad de cables con ayuda de un
+multímetro. Así podremos saber que cables corresponden a los pines de nuestro VGA.
 
-Además, podremos corroborar que el material abundante pelado que encontramos al pelar el cable, se trata de la tierra
+Además, podremos corroborar que el material abundante que está sin protector que encontramos al pelar el cable, se trata de la tierra
 del VGA. Midamos la continuidad entre los pines que indican tierra del VGA y el cable pelado.
 
  
