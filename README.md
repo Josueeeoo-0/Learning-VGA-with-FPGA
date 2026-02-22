@@ -10,33 +10,7 @@ tiempo real utilizando un FPGA, conectando la teoría del diseño digital con ap
 
 ## 2.1 Cable VGA
 
-### 2.1.1 Armado
-
-##### 2.1.1.1 Cabecera
-
-<p align="center">
-  <img src="Imagenes/1_VGA.jpeg" width="500">
-</p>
-
-##### 2.1.1.2 Cables por fuera
-
-<p align="center">
-  <img src="Imagenes/2_VGA.jpeg" width="500">
-</p>
-
-##### 2.1.1.3 Cables ordenados y empalmados
-
-<p align="center">
-  <img src="Imagenes/3_VGA.jpeg" width="500">
-</p>
-
-##### 2.1.1.4 La tierra del cable
-
-<p align="center">
-  <img src="Imagenes/4_VGA.jpeg" width="500">
-</p>
-
-### 2.1.2 Reconocimiento
+### 2.1.1 Reconocimiento
 
 El VGA esta conformada por 5 pines importantes:
 
@@ -67,8 +41,35 @@ o visto de otra manera:
 Con el fin de poder tener cables que conecten directamente con los pines del VGA, mediremos la contiunidad de cables con ayuda de un
 multímetro. Así podremos saber que cables corresponden a los pines de nuestro VGA.
 
-Además, podremos corroborar que el material abundante que está sin protector que encontramos al pelar el cable, se trata de la tierra
+Además, podremos corroborar que el material abundante que está sin protector que encontraremos al pelar el cable, se tratará de la tierra
 del VGA. Midamos la continuidad entre los pines que indican tierra del VGA y el cable pelado.
+
+
+### 2.1.2 Armado
+
+##### 2.1.2.1 Cabecera
+
+<p align="center">
+  <img src="Imagenes/1_VGA.jpeg" width="500">
+</p>
+
+##### 2.1.2.2 Cables por fuera
+
+<p align="center">
+  <img src="Imagenes/2_VGA.jpeg" width="500">
+</p>
+
+##### 2.1.2.3 Cables ordenados y empalmados
+
+<p align="center">
+  <img src="Imagenes/3_VGA.jpeg" width="500">
+</p>
+
+##### 2.1.2.4 La tierra del cable
+
+<p align="center">
+  <img src="Imagenes/4_VGA.jpeg" width="500">
+</p>
 
  
 
