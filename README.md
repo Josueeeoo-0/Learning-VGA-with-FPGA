@@ -73,6 +73,11 @@ del VGA. Midamos la continuidad entre los pines que indican tierra del VGA y el 
   <img src="Imagenes/4_VGA.jpeg" width="500">
 </p>
 
+> ⚠**Fuente externa**  
+> El armado del cable VGA sigue la metodología explicada en:
+> https://www.youtube.com/watch?v=qJ68fRff5_k
+
+
  
 
 
