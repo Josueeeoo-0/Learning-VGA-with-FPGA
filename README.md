@@ -78,7 +78,14 @@ del VGA. Midamos la continuidad entre los pines que indican tierra del VGA y el 
 > https://www.youtube.com/watch?v=qJ68fRff5_k
 
 
+## 2.2 Monitor
+
+
+
+## 2.3 FPGA
  
+
+# 3. Primera prueba
 
 
 
