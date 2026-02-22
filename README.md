@@ -22,6 +22,8 @@ El VGA esta conformada por 5 pines importantes:
 | HS (Sincronización Horizontal) | Digital | Sincroniza cada línea horizontal de la imagen |
 | VS (Sincronización Vertical) | Digital | Sincroniza cada actualización completa de la pantalla |
 
+y el GND de R, G y B.
+
 Por ahoran no es importante saber que hace cada señal. 
 
 Estos pines pueden ser ubicados de la siguiente manera:
