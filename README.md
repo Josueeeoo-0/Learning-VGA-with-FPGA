@@ -6,31 +6,69 @@ La idea es comenzar entendiendo cómo se generan las señales de video y cómo e
 progresivamente hacia conceptos más complejos. Como meta final, se busca llegar a comprender cómo es posible realizar visualización y análisis en 
 tiempo real utilizando un FPGA, conectando la teoría del diseño digital con aplicaciones prácticas y observables.
 
-# 2. Materiales
+# 2. Conceptos previos
 
 ## 2.1 Cable VGA
 
-### 2.1.1 Cabecera
+### 2.1.1 Armado
+
+##### 2.1.1.1 Cabecera
 
 <p align="center">
   <img src="Imagenes/1_VGA.jpeg" width="500">
 </p>
 
-### 2.1.2 Cables por fuera
+##### 2.1.1.2 Cables por fuera
 
 <p align="center">
   <img src="Imagenes/2_VGA.jpeg" width="500">
 </p>
 
-### 2.1.3 Cables ordenados y empalmados
+##### 2.1.1.3 Cables ordenados y empalmados
 
 <p align="center">
   <img src="Imagenes/3_VGA.jpeg" width="500">
 </p>
 
-### 2.1.4 La tierra del cable
+##### 2.1.1.4 La tierra del cable
 
 <p align="center">
   <img src="Imagenes/4_VGA.jpeg" width="500">
 </p>
+
+### 2.1.2 Reconocimiento
+
+La conexión VGA esta conformada por 5 conexiones importantes
+
+| Señal | Tipo | Descripción |
+|--------|------|-------------|
+| R (Rojo) | Video analógico | Define la intensidad del color rojo del píxel |
+| G (Verde) | Video analógico | Define la intensidad del color verde del píxel |
+| B (Azul) | Video analógico | Define la intensidad del color azul del píxel |
+| HS (Sincronización Horizontal) | Digital | Sincroniza cada línea horizontal de la imagen |
+| VS (Sincronización Vertical) | Digital | Sincroniza cada actualización completa de la pantalla |
+
+(por ahoran no es importante saber que hace cada señal) que pueden ser ubicadas de la siguiente manera:
+
+<p align="center">
+  <img src="Imagenes/5_VGA.png" width="500">
+</p>
+
+o visto de otra manera:
+
+<p align="center">
+  <img src="Imagenes/6_VGA.png" width="500">
+</p>
+
+### 2.1.3 Medición
+
+Mediremos la contiunidad de cables con ayuda de un multímetro. Así podremos saber que cables corresponden a los pines
+de nuestro VGA.
+
+Además, podremos corroborar que el material abundante pelado que encontramos al pelar el cable, se trata de la tierra
+del VGA. Midamos la continuidad entre los pines que indican tierra del VGA y el cable pelado.
+
+ 
+
+
 
